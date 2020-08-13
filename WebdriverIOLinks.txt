@@ -1,0 +1,32 @@
+WebDriverIO setup -- https://webdriver.io/docs/gettingstarted.html
+Faker (Random Datas) -- https://www.npmjs.com/package/faker 
+Allure Reports -- https://webdriver.io/docs/allure-reporter.html
+
+allure generate --clean && allure open -- clean the folder, Generate report and then open it
+
+Ranorex, locators
+page objects
+Gits
+chai libaries
+
+Please remove node_modules before pushing
+add gitignore
+
+git init - The git init command creates a new Git repository. 
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:maxxy4real/sampleFlow.git
+git remote set-url origin git@github.com/maxxyp/deuiFlow.git
+git push -u origin master
+
+ git push --set-upstream origin master
+
+
+C:\Automation\Javascript\netaporter>git push -u origin master
+Warning: Permanently added the RSA host key for IP address '140.82.118.3' to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ls -al ~/.ssh
